@@ -14,7 +14,8 @@ local on_file = function(pattern, tabstop, shiftwidth, expandtab)
   })
 end
 
-on_file({ "python", "lua", "yaml" }, 2, 2, true)
+on_file({ "lua", "yaml" }, 2, 2, true)
+on_file({ "python" }, 4, 4, true)
 on_file({ "c", "cpp", "java", "go" }, 4, 4, false)
 on_file({ "make" }, 8, 8, false)
 
